@@ -1,0 +1,28 @@
+{
+  "name": "facebook-page-ai-bot",
+  "version": "1.0.0",
+  "description": "Facebook Page AI Assistant for Mobile Shop & Social Media in Kurdish",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test-ai": "node test-ai.js",
+    "online": "node start-online.js"
+  },
+  "keywords": [
+    "facebook-bot",
+    "messenger-bot",
+    "ai",
+    "kurdish",
+    "gemini",
+    "openai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "localtunnel": "^2.0.2"
+  }
+}
